@@ -1,4 +1,4 @@
-# A tutorial about Continuous Integration and Continuous Delivery by Dockerize Jenkins Pipeline
+# A This repo is for Continuous Integration and Continuous Delivery by Dockerize Jenkins Pipeline.
 
 ## First step, running up the services
 
