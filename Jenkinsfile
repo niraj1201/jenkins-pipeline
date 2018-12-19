@@ -20,9 +20,13 @@ node {
     }
 
     stage('Sonar'){
-        sh "mvn sonar:sonar"
-    }
-     
+        try {
+            sh "mvn sonar:sonar"
+        } catch(error){
+            echo "The sonar server could not be reached ${error}"
+        }
+     }
+
     stage("Image Prune"){
         imagePrune(CONTAINER_NAME)
     }
