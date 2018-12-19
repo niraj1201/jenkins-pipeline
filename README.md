@@ -1,18 +1,4 @@
-!["Docker Pulls](https://img.shields.io/docker/pulls/hakdogan/jenkins-pipeline.svg)
-[![Analytics](https://ga-beacon.appspot.com/UA-110069051-1/jenkins-pipeline/readme)](https://github.com/igrigorik/ga-beacon)
-
 # A tutorial about Continuous Integration and Continuous Delivery by Dockerize Jenkins Pipeline
-
-This repository is a tutorial it tries to exemplify how to automatically manage the process of building, testing with the highest coverage, and deployment phases.
-
-Our goal is to ensure our pipeline works well after each code being pushed. The processes we want to auto-manage:
-* Code checkout
-* Run tests
-* Compile the code
-* Run Sonarqube analysis on the code
-* Create Docker image
-* Push the image to Docker Hub
-* Pull and run the image
 
 ## First step, running up the services
 
