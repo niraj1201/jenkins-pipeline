@@ -46,13 +46,13 @@ node {
     }
     
     stage('Slack Notification'){
-       slackSend baseUrl: 'https://hooks.slack.com/services/',
+       slackSend baseUrl: 'https://hooks.slack.com/services/TEWR3GSBT/BEWMEFUPJ/',
        channel: '#jenkins-pipeline-demo',
        color: 'good', 
        message: 'Welcome to Jenkins, Slack!', 
        teamDomain: 'Digital-Devops',
        tokenCredentialId: 'slack-demo'
-   }
+     }
            
 }
 
